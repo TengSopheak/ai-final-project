@@ -103,3 +103,18 @@ To evolve this project into a production-grade system and mitigate current limit
 2.  **Model Optimization for Edge Deployment:** Investigate techniques for model quantization (e.g., conversion to **ONNX** or **TensorRT**) to significantly reduce model size and inference latency. This is necessary for deployment on resource-constrained edge devices (e.g., **NVIDIA Jetson**, mobile platforms) required for real-time ADAS applications.
 3.  **Implementation of Object Tracking:** Integrate a temporal tracking algorithm (e.g., DeepSORT or BoT-SORT) to maintain sign identity across consecutive video frames. This post-processing step stabilizes detections, reduces visual flickering, and improves the reliability of the system in dynamic driving environments.
 4.  **Environmental Robustness Testing:** Conduct focused validation and improvement efforts on performance under challenging conditions (e.g., low light, heavy rain, glare), which often challenge the generalization capacity of vision models.
+
+---
+
+## 👥 Contributors
+
+**Dana Teng:**
+* Collected the dataset
+* Labeled and annotated traffic sign images
+* Applied preprocessing and data augmentation
+
+**Sopheak Teng:**
+* Trained the YOLOv8m model
+* Evaluated model performance
+* Ran predictions on test samples
+* Saved and prepared the model for use
