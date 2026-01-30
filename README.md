@@ -112,6 +112,7 @@ To evolve this project into a production-grade system and mitigate current limit
 * Collected the dataset
 * Labeled and annotated traffic sign images
 * Applied preprocessing and data augmentation
+* Ensure dataset is in correct format and trainable on YOLOv8 model
 
 **Sopheak Teng:**
 * Trained the YOLOv8m model
